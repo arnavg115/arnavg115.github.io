@@ -1,0 +1,12 @@
+.jumbotron{
+    background: rgb(123, 125, 126);
+    text-align: center;
+    color: white;
+}
+
+.orange{
+    color: orange;
+}
+body{
+    background-color: grey;
+}
