@@ -1,12 +1,33 @@
 .jumbotron{
+  margin-left:5vw; 
+  width: 90vw;
+  margin-top:30px; 
     background: rgb(123, 125, 126);
-    text-align: center;
+    text-align: left;
+    border-radius:10px;
+    height:200px; 
     color: white;
 }
-
+.display-4{  
+  margin-left:50px;
+  position: relative;
+  top: 50px;
+}
 .orange{
     color: orange;
 }
 body{
     background-color: grey;
+}
+nav{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10px;
+    transition: all 1s ease-in-out;
+    width:90vw;
+}
+.accordion{
+  margin-top:20px; 
 }
