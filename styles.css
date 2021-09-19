@@ -7,21 +7,22 @@ body {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  height: 200px;
+  height: 300px;
   width: 90vw;
   border-radius: 20px;
   padding-left: 50px;
-  background-color: grey;
+  border-style: solid;
+  border-width: 2.5px;
 }
 
 .orange {
   color: orange;
 }
 .text {
-  color: lavenderblush;
+  color: black;
 }
 nav {
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -34,4 +35,37 @@ nav {
 }
 h1 {
   font-size: small;
+}
+
+.next {
+  display: grid;
+  width: 90vw;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+.content {
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.icon {
+  width: 5em;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+.pos {
+  position: relative;
+  left: -15px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
 }
