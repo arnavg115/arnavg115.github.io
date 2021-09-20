@@ -3,6 +3,30 @@ body {
   place-items: center;
   height: 100px;
 }
+.dark {
+  background-color: #212529;
+}
+
+.light .text {
+  color: black;
+}
+
+.dark .text {
+  color: azure;
+}
+.dark .jumbotron {
+  border-color: white;
+}
+.dark .content {
+  border-color: whitesmoke;
+}
+.light .special {
+  background-color: #212529;
+}
+.dark.special {
+  background-color: aliceblue;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -18,9 +42,7 @@ body {
 .orange {
   color: orange;
 }
-.text {
-  color: black;
-}
+
 nav {
   border-radius: 20px;
   margin-left: auto;
@@ -68,4 +90,15 @@ h1 {
 
 .icon:hover {
   transform: scale(1.1);
+}
+
+.cent {
+  display: flex;
+  justify-content: center;
+}
+
+.dark .navs {
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: white;
 }
