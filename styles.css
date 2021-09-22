@@ -3,6 +3,7 @@ body {
   place-items: center;
   height: 100px;
 }
+
 .dark {
   background-color: #212529;
 }
@@ -71,6 +72,7 @@ h1 {
   border-width: 2.5px;
   border-radius: 10px;
   padding: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
 .grid {
@@ -101,4 +103,15 @@ h1 {
   border-style: solid;
   border-width: 1.5px;
   border-color: white;
+}
+
+.content:hover {
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 200px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
