@@ -13,8 +13,9 @@
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"
   ></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-<body class="dark" id="body">
+<body class="dark" id="body" onload="onLoad()">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark navs">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" style="color: orange">Arnav Gurha</a>
@@ -30,31 +31,19 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/counter/"
-              >Counter</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              id="f"
-              class="nav-link active"
-              aria-current="page"
-              href="/projects/"
-              >Projects</a
-            >
-          </li>
-        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+        <div>
+          <label class="switch">
+            <input type="checkbox" onchange="changeTheme()" id="checker" />
+            <span class="slider round"></span>
+          </label>
+        </div>
       </div>
     </div>
   </nav>
 
   <div class="jumbotron">
-    <h1 class="orange">
+    <h1 class="orange header">
       <span class="text">Hello, I am Arnav Gurha and I am a </span
       ><span class="orange typer"> </span>
     </h1>
@@ -102,5 +91,5 @@
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-  <script src="index.js"></script>
+  <script src="index.js" defer></script>
 </body>
