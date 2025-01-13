@@ -1,5 +1,5 @@
 // import Link from "next/link";
-import React, { MutableRefObject, useEffect, useRef } from "react";
+import { MutableRefObject, useEffect, useRef } from "react";
 // import { IoLogoGithub, IoMdMail } from "react-icons/io";
 
 export default function DotMatrix() {
@@ -30,7 +30,7 @@ export default function DotMatrix() {
       // console.log(x);
       // console.log(ev.clientX - ele.getBoundingClientRect().x);
     });
-    ele.addEventListener("mouseout", (x) => {
+    ele.addEventListener("mouseout", (_) => {
       const transform = `
 
         rotateX(0deg)

@@ -1,5 +1,4 @@
-import React, { PropsWithChildren, useEffect, useState } from "react";
-import { Divider } from "./Divider";
+import { PropsWithChildren, useEffect, useState } from "react";
 
 // import "../styles/Home.module.css";
 
