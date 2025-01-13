@@ -1,95 +1,19 @@
-<head>
-  <title>Arnav Gurha's website</title>
-  <link href="styles.css" rel="stylesheet" />
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-    crossorigin="anonymous"
-  />
-  <link rel="icon" href="favicon-16x16.png" />
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"
-  ></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body class="dark" id="body" onload="onLoad()">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navs">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#" style="color: orange">Arnav Gurha</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-        <div>
-          <label class="switch">
-            <input type="checkbox" onchange="changeTheme()" id="checker" />
-            <span class="slider round"></span>
-          </label>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <div class="jumbotron">
-    <h1 class="orange header">
-      <span class="text">Hello, I am Arnav Gurha and I am a </span
-      ><span class="orange typer"> </span>
-    </h1>
-  </div>
-  <div class="next">
-    <div class="content special">
-      <div class="white-border">
-        <h1 class="orange">About me</h1>
-        <p style="color: whitesmoke">
-          I am a student with many interests. For the past 2 years I have been
-          exploring computer science and programming. I am most interested in
-          the use of computers in complex problems and other novel games. I am
-          also a full time student where I focus mainly on math and science. I
-          have an interest in photography as well.
-        </p>
-      </div>
-    </div>
-    <div class="content">
-      <h1 class="orange">Check me out here</h1>
-      <div class="grid">
-        <a href="https://github.com/arnavg115/" target="blank" class="cent">
-          <img
-            src="https://findicons.com/files/icons/2779/simple_icons/2048/github_2048_black.png"
-            alt="github"
-            class="icon pos"
-          />
-        </a>
-        <a href="https://twitter.com/Gorrilla115" target="blank" class="cent">
-          <img
-            src="https://img.icons8.com/color/96/000000/twitter--v1.png"
-            alt="twitter"
-            class="icon pos"
-          />
-        </a>
-        <a href="https://dev.to/arnavg115" target="blank" class="cent">
-          <img
-            src="https://d2fltix0v2e0sb.cloudfront.net/dev-black.png"
-            alt="dev.to"
-            class="icon pos"
-          />
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-  <script src="index.js" defer></script>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arnav Gurha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Space+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

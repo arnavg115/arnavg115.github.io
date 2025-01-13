@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  perspective: 500px;
+}
+
+.rot {
+  transform-origin: top left;
+  transform: rotate(90deg);
+  position: relative;
+  left: 105%;
+}
+
+.box {
+  /* From https://css.glass */
+  background: rgba(37, 37, 37, 0.76);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.dot {
+  background: rgba(54, 76, 110, 0.582);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.txt::after {
+  content: "█";
+  /* display: relative; */
+  display: inline-block;
+  animation: identifier 1s infinite;
+
+  /* width: 10px; */
+  /* margin-top: -10px; */
+  /* height: 10px; */
+  /* top: 20px; */
+  /* background-color: blue; */
+}
+
+@keyframes identifier {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
