@@ -124,12 +124,13 @@ function App() {
           <h1 className="text-3xl">Question</h1>
           <div className="font-mono text-blue-100 mt-5 pl-5">
             <p>
-              (Dis)prove: Given an plane of arbitrary size and n dots that can
-              be placed on the grid, a line of symmetry can be defined such that
+              (Dis)prove: Given a plane of arbitrary size and n dots that can be
+              placed on this plane, a line of symmetry can be defined such that
               on each side of the line an equal number of dots rest (including
-              colinear points). Can it be (dis)proven that such a line that
-              passes{" "}
-              <span className="text-blue-400">through at least one point </span>
+              colinear points). This line doesn't necessarily need to divide the
+              plane into two, it just needs to have an equal number of dots on
+              either side. Can it be (dis)proven that such a line that passes{" "}
+              <span className="text-blue-400">through at least one dot </span>
               exists for every n.
             </p>
 
