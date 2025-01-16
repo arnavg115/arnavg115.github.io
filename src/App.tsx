@@ -135,7 +135,7 @@ function App() {
             </p>
 
             <div className="mt-10">
-              Email proofs to agurha@ucsd.edu. First to do so wins a Cookie.{" "}
+              Email proofs to agurha@ucsd.edu. First to do so wins $10{" "}
               <span className="text-blue-400">
                 Credit to H. I. for variation{" "}
               </span>
