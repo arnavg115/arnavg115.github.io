@@ -39,7 +39,28 @@ function App() {
                 )
               </li>
               <li>10% hardware (ucsd micromouse team lead)</li>
-              <li>Research Assistant @ Hao Su Lab since Dec 2023</li>
+              <li>
+                Research Assistant @{" "}
+                <a
+                  href="https://cseweb.ucsd.edu/~haosu/index.html"
+                  className="text-blue-400"
+                  target="_blank"
+                >
+                  Hao Su Lab
+                </a>{" "}
+                since Dec 2023
+              </li>
+              <li>
+                Research Assistant @{" "}
+                <a
+                  href="https://www.teleselab.com/"
+                  className="text-blue-400"
+                  target="_blank"
+                >
+                  Telese Lab
+                </a>{" "}
+                since Dec 2024
+              </li>
             </ul>
           </div>
         </Box>

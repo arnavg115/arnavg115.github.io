@@ -49,7 +49,7 @@ export const Nav = () => {
             </a>
           </li>
           <li>
-            <a href="gorrilla1115.bsky.social" target="_blank">
+            <a href="https://gorrilla1115.bsky.social" target="_blank">
               Bsky
             </a>
           </li>
@@ -59,7 +59,10 @@ export const Nav = () => {
             </a>
           </li>
           <li>
-            <a href="www.linkedin.com/in/arnav-gurha-4801b11b1" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/arnav-gurha-4801b11b1"
+              target="_blank"
+            >
               Linkedin
             </a>
           </li>
