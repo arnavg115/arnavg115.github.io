@@ -36,7 +36,7 @@ export const Nav = () => {
             </a>
           </li>
           <li>
-            <a href="https://x.com/Gorrilla115" target="_blank">
+            <a href="https://x.com/arnavg115" target="_blank">
               Twitter
             </a>
           </li>
