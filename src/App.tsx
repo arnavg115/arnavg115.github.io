@@ -141,7 +141,7 @@ function App() {
             </ul>
           </div>
         </Box>
-        <Box>
+        {/* <Box>
           <h1 className="text-3xl">Question</h1>
           <div className="font-mono text-blue-100 mt-5 pl-5">
             <p>
@@ -161,6 +161,29 @@ function App() {
                 Credit to H. I. for variation{" "}
               </span>
             </div>
+          </div>
+          
+        </Box> */}
+        <Box>
+          <h1 className="text-3xl">Works</h1>
+          <div className="font-mono text-blue-100 mt-5 pl-5">
+            <ul className="list-disc">
+              <li>
+                <a
+                  className="text-blue-400"
+                  href="https://arxiv.org/abs/2410.00425"
+                >
+                  ManiSkill3: GPU Parallelized Robotics Simulation and Rendering
+                  for Generalizable Embodied AI
+                </a>
+                <p>
+                  Stone Tao ...{" "}
+                  <span className="text-blue-300">Arnav Gurha</span> et. al.
+                  (15th of 24 authors){" "}
+                </p>
+                RSS 2025 ICLR 2025 Robot Learning Workshop, Oral Presentation
+              </li>
+            </ul>
           </div>
         </Box>
       </div>

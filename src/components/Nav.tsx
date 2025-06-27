@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 // import "../styles/Home.module.css";
 
 export const Nav = () => {
-  const target = "ls -a \n";
+  const target = "ls -a links/ \n";
   const [text, setText] = useState("");
   const [done, setDone] = useState(false);
   const tick = () => {
@@ -15,7 +15,7 @@ export const Nav = () => {
     if (!done) {
       i = setInterval(() => {
         tick();
-      }, 150);
+      }, 100);
     }
 
     return () => {
@@ -33,6 +33,11 @@ export const Nav = () => {
           <li>
             <a href="https://github.com/arnavg115" target="_blank">
               Github
+            </a>
+          </li>
+          <li>
+            <a href="/cv.pdf" target="_blank">
+              CV
             </a>
           </li>
           <li>
