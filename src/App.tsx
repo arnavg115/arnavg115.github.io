@@ -183,6 +183,21 @@ function App() {
                 </p>
                 RSS 2025 ICLR 2025 Robot Learning Workshop, Oral Presentation
               </li>
+              <li>
+                <a
+                  className="text-blue-400"
+                  href="https://www.sciencedirect.com/science/article/pii/S2772392525000276"
+                >
+                  Corticotrophin-Releasing Hormone Binding Protein in the
+                  Basolateral Amygdala: Divergent Roles in Cocaine and Opioid
+                  Addiction Like Behaviors
+                </a>
+                <p>
+                  Courtney P. Wood,{" "}
+                  <span className="text-blue-300">Arnav Gurha</span> et. al.
+                </p>
+                Addiction Neuroscience
+              </li>
             </ul>
           </div>
         </Box>
