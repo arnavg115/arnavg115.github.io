@@ -13,14 +13,15 @@ function App() {
           <h1 className="text-3xl">About</h1>
           <div className="font-mono text-blue-100 mt-5 pl-10">
             <ul className="list-disc">
-              <li>Bioinfo major, CSE minor @ UCSD</li>
-              <li>
+              <li>Bioinformatics major, CSE minor @ UCSD</li>
+              <li>Expected graduation is Dec. 2026</li>
+              {/* <li>
                 Transit enthusiast: Did BART speed run (visited all 50 stations
                 in 6:30)
               </li>
-              <li>Cycle, Run from time to time</li>
+              <li>Cycle, Run from time to time</li> */}
               <li>
-                90% software (
+                Software:{" "}
                 <a
                   href="https://battlecode.org/"
                   target="_blank"
@@ -28,7 +29,7 @@ function App() {
                 >
                   battlecode
                 </a>{" "}
-                '24-'25, lab work, personal projects,{" "}
+                '24-'26, lab work, personal projects,{" "}
                 <a
                   href="https://calico.cs.berkeley.edu/"
                   className="text-blue-400"
@@ -36,9 +37,11 @@ function App() {
                 >
                   Calico
                 </a>
-                )
+                <ul className="list-inside">
+                  <li>battlecode finalist: 2025, 2026</li>
+                </ul>
               </li>
-              <li>10% hardware (ucsd micromouse team lead)</li>
+              <li>Hardware: UCSD micromouse team lead</li>
               <li>
                 Research Assistant @{" "}
                 <a
@@ -118,7 +121,8 @@ function App() {
                 >
                   Bad Apple google calendar
                 </a>
-                : Link to{" "}
+                : Played Bad Apple on Google Calender using a custom built
+                chrome extension:{" "}
                 <a
                   href="https://www.youtube.com/watch?v=YulFifQifr4"
                   target="_blank"
@@ -137,6 +141,16 @@ function App() {
                 </a>
                 : Performing optimization using RL, gradient descent, and
                 genetic algorithms on neural circuits.
+              </li>
+              <li>
+                <a
+                  href="https://github.com/arnavg115/carto-campus-next"
+                  target="_blank"
+                  className="text-blue-400"
+                >
+                  carto-campus
+                </a>
+                : Built a navigation app for high-school campuses.
               </li>
             </ul>
           </div>
@@ -166,7 +180,7 @@ function App() {
         </Box> */}
         <Box>
           <h1 className="text-3xl">Works</h1>
-          <div className="font-mono text-blue-100 mt-5 pl-5">
+          <div className="font-mono text-blue-100 mt-5 pl-5 text-sm">
             <ul className="list-disc">
               <li>
                 <a
@@ -196,7 +210,22 @@ function App() {
                   Courtney P. Wood,{" "}
                   <span className="text-blue-300">Arnav Gurha</span> et. al.
                 </p>
-                Addiction Neuroscience
+                Addiction Neuroscience 2025
+              </li>
+              <li>
+                <a
+                  className="text-blue-400"
+                  href="https://www.biorxiv.org/content/10.1101/2025.04.03.646846v3"
+                >
+                  Single-nucleus transcriptomics reveals convergent effects of
+                  THC exposure and Reelin signaling on nucleus accumbens
+                  maturation in adolescence
+                </a>
+                <p>
+                  Yanning Zuo, Avraham Libster,{" "}
+                  <span className="text-blue-300">Arnav Gurha</span> et. al.
+                </p>
+                BioRxiv 2026
               </li>
             </ul>
           </div>

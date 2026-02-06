@@ -71,7 +71,7 @@ export default function DotMatrix() {
         </div> */}
       </div>
       <div className="font-mono italic rot h-10 text-blue-100">
-        ©ARNAV G. 2025
+        ©ARNAV G. 2026
       </div>
     </div>
   );
