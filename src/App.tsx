@@ -14,12 +14,11 @@ function App() {
           <div className="font-mono text-blue-100 mt-5 pl-10">
             <ul className="list-disc">
               <li>Bioinformatics major, CSE minor @ UCSD</li>
-              <li>Expected graduation is Dec. 2026</li>
-              {/* <li>
+              <li>
                 Transit enthusiast: Did BART speed run (visited all 50 stations
                 in 6:30)
               </li>
-              <li>Cycle, Run from time to time</li> */}
+              <li>Cycle, Run from time to time</li>
               <li>
                 Software:{" "}
                 <a
@@ -27,9 +26,9 @@ function App() {
                   target="_blank"
                   className="text-blue-400"
                 >
-                  battlecode
+                  battlecode finalist
                 </a>{" "}
-                '24-'26, lab work, personal projects,{" "}
+                '25-'26, lab work, personal projects,{" "}
                 <a
                   href="https://calico.cs.berkeley.edu/"
                   className="text-blue-400"
@@ -37,9 +36,6 @@ function App() {
                 >
                   Calico
                 </a>
-                <ul className="list-inside">
-                  <li>battlecode finalist: 2025, 2026</li>
-                </ul>
               </li>
               <li>Hardware: UCSD micromouse team lead</li>
               <li>
@@ -141,16 +137,6 @@ function App() {
                 </a>
                 : Performing optimization using RL, gradient descent, and
                 genetic algorithms on neural circuits.
-              </li>
-              <li>
-                <a
-                  href="https://github.com/arnavg115/carto-campus-next"
-                  target="_blank"
-                  className="text-blue-400"
-                >
-                  carto-campus
-                </a>
-                : Built a navigation app for high-school campuses.
               </li>
             </ul>
           </div>
